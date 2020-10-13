@@ -12,19 +12,25 @@ Using Tensorflow as the framework and Proximal Policy Optimization (PPO) as the 
 Here is a the video of successful lap by the AWS DeepRacer.
 
 [![AWS Successful Lap](https://img.youtube.com/vi/egrYHkng7tE/maxresdefault.jpg)](https://youtu.be/egrYHkng7tE)
-https://www.youtube.com/watch?v=egrYHkng7tE
 
 
 Details about the Reinforcement Model:
 
+
 Framework : Tensorflow
+
 Reinforcement Learning Algorithm : Proximal Policy Optimization
 
 Hyperparameters and their values used:
 
 Gradient Descent Batch Size : 64
+
 Entropy : 0.01
+
 Discount Factor : 0.999
+
 Loss type : Huber
+
 Learning Rate : 0.003
+
 Number of epochs : 10
